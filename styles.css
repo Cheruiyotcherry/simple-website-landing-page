@@ -1,0 +1,66 @@
+*{
+
+    padding:0 ;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("Images/shopping.jpeg");
+}
+nav{
+
+background-color: aqua;
+}
+label.logo{
+    color: rgb(255, 38, 0);
+    font-size: 30px;
+    line-height: 70px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+text-transform: uppercase;
+border-radius: 3px;
+}
+active,a:hover{
+    background-color: orange;
+    transition: .5s;
+}
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: #111;
+    color: white;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h3{
+    font-size: medium;
+    text-transform: uppercase;
+
+}
+.box .main-content{
+    margin: 20px 0 0 0;
+}
